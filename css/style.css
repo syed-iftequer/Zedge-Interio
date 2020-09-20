@@ -4508,6 +4508,7 @@ html.tablet .ui-to-top {
 .self-logo{
 	font-size: large;
     text-transform: uppercase;
+	line-height: normal
 	
 }
 .logo-first-name{
@@ -4518,6 +4519,12 @@ html.tablet .ui-to-top {
 	margin: 0px;
     font-size: 8px;
     letter-spacing: 1px;
+}
+@media (max-width: 1199px) {
+	.logo-tagline{
+		position: relative;
+		top: -10px
+	}
 }
 
 .rd-navbar-search {
